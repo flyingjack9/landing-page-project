@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -74,4 +75,45 @@ button {
     font-size: 20px;
     font-weight: 600;
     padding: 4px 8px;
+}
+
+.information-panel {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-panel {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.card {
+    display: block;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border:2px solid #3882F6;
+}
+
+.card-text {
+    max-width: 200px;
+    text-align: center;
+    color: rgb(119, 117, 117);
+}
+
+.informations-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding: 16px;
 }
